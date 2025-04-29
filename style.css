@@ -9,14 +9,47 @@ body {
 
   .header{
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 64px;
+    align-items: center;
   }
 
-  .footer{
-    background-color: #1F2937;
+  .logo{
+    font-size: 24px;
+    color: #f9faf8;
   }
+
+
+  a{
+    color: #e5e7eb;
+    text-decoration-line: none;
+  }
+
+  ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 16px;
+    justify-content: flex-end;
+    gap: 16px;
+    padding-right: ;
+  }
+
+/* ----------- */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 
   .title{
     background-color: #1F2937;
+    display: flex;
+    gap: 16px;
+    padding:64px;
   }
 
   .text{
@@ -25,29 +58,29 @@ body {
     font-weight: 900;
   }
 
-  .subText,.header-link{
+  .subText,.header-link,.footer{
     font-size: 18px;
     color: #e5e7eb;
   } 
 
-  .logo{
-    font-size: 24px;
-    color: #f9faf8;
-  }
+ 
 
   .signup1{
     background-color: #3882f6;
   }
 
-  .action-block{ 
-    background-color: #3882f6;
-  }
+
+/* ------------------------------------------------------- */
+
+
 
   .info-header {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
   }
+
+/* ---------------------------------------------- */
 
   .quote-block{
     background-color: #e5e7eb;
@@ -59,6 +92,32 @@ body {
     font-weight: 300;
     font-style: italic;
   }
+
+
+
+
+.information-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-image{
+    display: flex;
+}
+
+/* ---------------------------- */
+.action-block{ 
+    background-color: #3882f6;
+  }
+
+/* --------------------------------------------------- */
+
+
+.footer{
+    background-color: #1F2937;
+  }
+
+
   /* .website-image{
     border-image-width: 100px;
     height: 100px;
