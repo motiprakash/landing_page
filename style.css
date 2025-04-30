@@ -42,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+   
 }
 
 
@@ -50,6 +51,7 @@ body {
     display: flex;
     gap: 16px;
     padding:64px;
+    justify-content: center;
   }
 
   .text{
@@ -80,10 +82,36 @@ body {
     font-weight: 900;
   }
 
+  
+
+.information-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-image{
+  display: flex;
+  margin: auto;
+}
+
+.info-header{
+  margin: auto;
+}
+
+img{
+  width: 100px;
+  height: auto;
+
+}
+
 /* ---------------------------------------------- */
 
   .quote-block{
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .quote{
@@ -93,28 +121,32 @@ body {
     font-style: italic;
   }
 
-
-
-
-.information-block{
+  .author{
     display: flex;
-    flex-direction: column;
-}
+    justify-content: flex-end;
+  }
 
-.info-image{
-    display: flex;
-}
+
 
 /* ---------------------------- */
 .action-block{ 
     background-color: #3882f6;
+    display: flex;
+    justify-content: center;
   }
+
+
+/* .calltoaction{
+  display: flex;
+  flex-direction: column;
+} */
 
 /* --------------------------------------------------- */
 
 
 .footer{
     background-color: #1F2937;
+    justify-content: center;
   }
 
 
